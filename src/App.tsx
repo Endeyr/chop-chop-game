@@ -79,7 +79,7 @@ function App() {
                         Toggle Movement
                     </button>
                 </div>
-                <div className="spritePosition">
+                <div className="sprite-position">
                     Sprite Position:
                     <pre>{`{\n  x: ${spritePosition.x}\n  y: ${spritePosition.y}\n}`}</pre>
                 </div>
@@ -94,4 +94,3 @@ function App() {
 }
 
 export default App;
-
